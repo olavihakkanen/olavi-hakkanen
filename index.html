@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Olavi Häkkänen – arvot, kysymykset ja ajatukset</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#fff;--surface:#eef3fb;--ink:#0f1f3d;--muted:#4a5b7a;--blue:#0b4aa2;--deep:#082c63;--line:#d3deef}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1730;--surface:#10224a;--ink:#eaf1ff;--muted:#a9b8d6;--blue:#6fa3ff;--deep:#0a1730;--line:#24396b}}
+:root[data-theme="dark"]{--bg:#0a1730;--surface:#10224a;--ink:#eaf1ff;--muted:#a9b8d6;--blue:#6fa3ff;--deep:#0a1730;--line:#24396b}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.65 "Source Sans 3",system-ui,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+h1,h2,h3{font-family:"Source Serif 4",Georgia,serif;line-height:1.2;margin:0 0 .5em}
+a{color:var(--blue)}:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar,.wrap{max-width:960px;margin:0 auto;padding-left:1.25rem;padding-right:1.25rem}
+.bar{padding-top:.8rem;padding-bottom:.8rem;display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+.brand{font:700 1.1rem "Source Serif 4",Georgia,serif;color:var(--ink);text-decoration:none}
+nav{display:flex;gap:1.25rem;flex-wrap:wrap}nav a{color:var(--ink);text-decoration:none;font-weight:600}nav a:hover{color:var(--blue)}
+.hero{background:var(--deep);color:#fff}.hero .wrap{padding-top:4.5rem;padding-bottom:4.5rem}
+.hero h1{font-size:clamp(2.2rem,6vw,3.8rem);max-width:18ch}.hero p{max-width:34em;font-size:1.2rem;color:#dbe7ff;margin:0}
+section{padding:3.5rem 0}.alt{background:var(--surface)}
+.about{display:grid;grid-template-columns:200px 1fr;gap:2rem;align-items:start}
+.photo{aspect-ratio:1;background:var(--surface);border:1px solid var(--line);border-radius:6px;display:grid;place-items:center;color:var(--muted);text-align:center;padding:1rem}
+.grid{list-style:none;margin:0;padding:0;display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.grid li{border-left:4px solid var(--blue);padding-left:1rem}.grid h3{font-size:1.2rem;margin-bottom:.2em}.grid p{margin:0;color:var(--muted)}
+.issue{padding:1.4rem 0;border-bottom:1px solid var(--line)}.issue:last-child{border-bottom:0}.issue h3{font-size:1.35rem}.issue p{margin:.3em 0;max-width:42em}
+.post{padding:1.5rem 0;border-bottom:1px solid var(--line)}.post time{color:var(--muted);font-size:.95rem}.post h3{font-size:1.4rem;margin:.1em 0 .3em}.post p{max-width:42em;margin:.5em 0}
+form{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:1.2rem;margin-bottom:2rem}
+form label{display:block;font-weight:600;margin-bottom:.8rem}
+input,textarea{display:block;width:100%;margin-top:.3rem;padding:.6rem;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:4px}
+button{font:600 1rem "Source Sans 3",sans-serif;padding:.7rem 1.3rem;border:0;border-radius:6px;background:var(--blue);color:#fff;cursor:pointer}
+button.link{background:none;color:var(--muted);padding:0;text-decoration:underline;font-weight:400}
+.note{color:var(--muted);font-size:.95rem;margin:.6rem 0 0}
+.alt form{background:var(--bg)}.prog{display:flex;justify-content:space-between;gap:1rem;align-items:baseline;padding:.9rem 0;border-bottom:1px solid var(--line)}.prog a{font-weight:600}
+footer{background:var(--deep);color:#dbe7ff;padding:2.5rem 0}footer a{color:#fff}
+@media(max-width:640px){.about{grid-template-columns:1fr}.photo{max-width:180px}}
+</style>
+</head>
+<body>
+<header><div class="bar"><a class="brand" href="#etusivu">Olavi Häkkänen</a>
+<nav aria-label="Päävalikko"><a href="#minusta">Minusta</a><a href="#arvot">Arvoni</a><a href="#kysymykset">Kysymykset</a><a href="#ohjelma">Ohjelma</a><a href="#blogi">Blogi</a><a href="#yhteys">Yhteys</a></nav></div></header>
+<main>
+<div class="hero" id="etusivu"><div class="wrap"><h1>Kasvua. Turvallisuutta. Rehellisyyttä.</h1>
+<p>Suomi tarvitsee vahvan talouden, uskottavan puolustuksen ja aktiivisen kansainvälisen roolin. Tulevaisuutta ei rakenneta velkaantumalla, sivusta seuraamalla tai kilpailukyvystä tinkimällä.</p></div></div
+<section id="minusta"><div class="wrap about"><div class="photo" role="img" aria-label="Paikka kuvalle"></div>
+<div><h2>Minusta</h2>
+<p>Olen Olavi Häkkänen,15-vuotias nuori Tuusulasta. En halua seurata politiikkaa sivusta, vaan ottaa siihen kantaa. Minua kiinnostavat erityisesti Suomen talous, ulkopolitiikka, turvallisuus ja kansainvälinen vaikuttaminen.
+
+Kirjoitan, koska Suomen tulevaisuudesta pitää uskaltaa puhua suoraan. Haluan puolustaa yrittäjyyttä, talouskasvua, vahvaa maanpuolustusta ja Suomen kansainvälistä asemaa. En usko siihen, että Suomi menestyy pelkällä varovaisuudella ja vanhoihin ratkaisuihin takertumalla. Tarvitsemme kunnianhimoa, rohkeita päätöksiä ja kykyä katsoa tulevaisuuteen.
+
+Minulle politiikka ei ole pelkkää puhetta. Se on tulevaisuuden päättämistä.</p>
+<p></p></div></div></section>
+<section class="alt" id="arvot"><div class="wrap"><h2>Arvoni</h2>
+<ul class="grid">
+<li><h3>Suomi takaisin kasvun tielle! Työn, yrittäjyyden ja investointien puolesta</h3><p>Suomi takaisin kasvun tielle! Olen työn, yrittäjyyden ja investointien puolesta. Suomen pitää olla maa, jossa menestyminen kannattaa. Emme voi rakentaa tulevaisuutta velan, jatkuvasti kasvavien verojen ja yritysten toimintaa vaikeuttavan sääntelyn varaan."</p></li>
+<li><h3>Turvallisuus ei synny toivomalla! Suomi tarvitsee voimaa, selkärankaa ja diplomatiaa.</h3><p>Suomi ei saa olla vain kansainvälisen politiikan seuraaja. Meidän pitää olla maa, joka vaikuttaa, neuvottelee ja puolustaa arvojaan. Vahva diplomatia tarvitsee tuekseen uskottavan puolustuksen.</p></li>
+<li><h3>Järki takaisin ilmasto ja teollisuuspolitiikkaa! Lisää energiaa, työpaikkoja ja kilpailukykyä</h3><p>Ilmastopolitiikka ei saa tapahtua suomalaisten työpaikkojen, maatalouden ja teollisuuden kustannuksella. Tarvitsemme päästövähennyksiä, jotka perustuvat teknologiaan ja innovaatioihin, eivät yritysten tukahduttamiseen. </p></li>
+</ul></div></section>
+
+<section id="kysymykset"><div class="wrap"><h2>Mitä mieltä olen?</h2>
+<div class="issue"><h3>Suomen puolustus : Turvallisuudesta ei tingitä!</h3><p>Suomen puolustuskykyä on vahvistettava pitkäjänteisesti, eikä turvallisuudesta voida säästää lyhyen aikavälin taloudellisten tavoitteiden vuoksi. Puolustusvoimien rahoitukseen, kalustoon ja kotimaiseen puolustusteollisuuteen on panostettava. Suomen on oltava valmis puolustamaan itseään kaikissa tilanteissa.</p></div>
+<div class="issue"><h3>Perintöverolle loppu : Vaurautta ei pidä rangaista!</h3><p>Perintövero on poistettava kokonaan. On kestämätöntä, että valtio ottaa jälleen osansa omaisuudesta, josta on jo maksettu verot sen ansaitsemisen aikana. Perheiden vuosikymmenten työ ja säästäminen eivät saa muuttua valtion uudeksi verotuskohteeksi. Suomessa pitäisi kannustaa vaurastumiseen ja sukupolvien väliseen omaisuuden siirtymiseen, ei tehdä siitä rangaistavaa verotuksen kautta.</p></div>
+<div class="issue"><h3>Yrittäjyys : Menestyminen pitää tehdä kannattavaksi</h3><p>Suomen pitää olla maa, jossa yrittäminen kannattaa ja yrityksen kasvattaminen on mahdollisuus, ei jatkuva taistelu byrokratiaa vastaan. Tarvitsemme kevyempää verotusta, vähemmän tarpeetonta sääntelyä ja paremmat edellytykset investoinneille. Työpaikat ja talouskasvu syntyvät yrityksissä, joten yrittäjyyden pitää olla yksi Suomen talouspolitiikan tärkeimmistä painopisteistä.</p></div>
+</div></section>
+
+<section class="alt" id="ohjelma"><div class="wrap"><h2>Ohjelma</h2>
+<p>Ajatukseni ja tavoitteeni ladattavina PDF-asiakirjoina. Ohjelma tulossa myöhemmin!</p>
+<div id="progEditor" hidden>
+<form id="progForm"><label>Asiakirjan nimi<input id="pt" required maxlength="140"></label>
+<label>PDF-tiedosto<input id="pf" type="file" accept="application/pdf"></label>
+<label>tai linkki PDF:ään<input id="pu" type="url" placeholder="https://..."></label>
+<button type="submit" id="pgo">Lisää ohjelmaan</button>
+<p class="note" id="pmsg">Valitse tiedosto tai liitä linkki. Vain sinä näet tämän lomakkeen.</p></form></div>
+<div id="progs"></div></div></section>
+
+<section id="blogi"><div class="wrap"><h2>Blogi : Kopioi linkki ja lue dokumentti helposti Wordissa!</h2>
+ <label> 29.10.2026 - Lapin sota muistuttaa, että historiaa ei tarvitse kaunistella </label> 
+
+
+ <label>https://1drv.ms/w/c/a9e6a85fe0028654/IQCT9R04HjAIRJpHt-zq19HFAZgWgCxLRd0CBCAu2GBt5CA?e=kkKgWs</label>
+<div id="editor" hidden>
+<form id="form"><label>Otsikko<input id="t" required maxlength="140"></label>
+<label>Teksti (jätä tyhjä rivi kappaleiden väliin)<textarea id="b" rows="7" required></textarea></label>
+<button type="submit" id="go">Julkaise kirjoitus</button>
+<p class="note" id="msg">Vain sinä näet tämän lomakkeen. Julkaisun jälkeen sivu latautuu uudelleen.</p></form></div>
+<div id="posts"></div></div></section>
+</main>
+<footer id="yhteys"><div class="wrap"><h2>Ota vapaasti yhteyttä!</h2><p>Sähköposti: <a href="mailto:nimi@example.fi">hakkanenolavi@gmail.com</a><br>Instagram : hakkanenolavi Facebook : Olavi Häkkänen X = Työn alla, tänne tulee eniten sisältöä myöhemmin.</p></div></footer>
+<script type="application/json" id="state">{"posts":[{"date":"2026-29-10","title":"Lapin sota muistuttaa, että historiaa ei tarvitse kaunistella
+","text":\n\n."}]}</script>
+<script>
+(async()=>{
+const SRC="<!DOCTYPE html>\n"+document.documentElement.outerHTML;
+const state=JSON.parse(document.getElementById("state").textContent);
+const list=document.getElementById("posts"),progs=document.getElementById("progs");
+state.programs=state.programs||[];let assets=null;
+let owner=false,art=null;
+try{const u=await claude.use("user");art=await claude.use("artifact");owner=!!(u&&art&&u.canEdit());}catch(e){}
+try{assets=await claude.use("assets");}catch(e){}
+function render(){
+  list.textContent="";
+  state.posts.forEach((p,i)=>{
+    const a=document.createElement("article");a.className="post";
+    const t=document.createElement("time");t.dateTime=p.date;
+    t.textContent=new Date(p.date).toLocaleDateString("fi-FI",{day:"numeric",month:"long",year:"numeric"});
+    const h=document.createElement("h3");h.textContent=p.title;
+    a.append(t,h);
+    p.text.split(/\n{2,}/).forEach(s=>{const q=document.createElement("p");q.textContent=s;a.append(q);});
+    if(owner){const d=document.createElement("button");d.className="link";d.textContent="Poista kirjoitus";
+      d.onclick=()=>{if(confirm("Poistetaanko kirjoitus?")){state.posts.splice(i,1);save();}};a.append(d);}
+    list.append(a);
+  });
+  if(!state.posts.length){const e=document.createElement("p");e.textContent="Ei vielä kirjoituksia.";list.append(e);}
+}
+async function save(){
+  const msg=document.getElementById("msg");
+  const json=JSON.stringify(state).replace(/</g,"\\u003c");
+  const html=SRC.replace(/(<script type="application\/json" id="state">)[\s\S]*?(<\/script>)/,(m,a,b)=>a+json+b);
+  try{await art.publish(html);}catch(e){msg.textContent="Tallennus ei onnistunut. Yritä uudelleen.";}
+}
+function renderProgs(){progs.textContent="";
+  state.programs.forEach((p,i)=>{const r=document.createElement("div");r.className="prog";
+    const a=document.createElement("a");a.href=p.url;a.textContent=p.title;a.target="_blank";a.rel="noopener";r.append(a);
+    if(owner){const d=document.createElement("button");d.className="link";d.textContent="Poista";
+      d.onclick=()=>{if(confirm("Poistetaanko asiakirja listalta?")){state.programs.splice(i,1);save();}};r.append(d);}
+    progs.append(r);});
+  if(!state.programs.length){const e=document.createElement("p");e.textContent="Ei vielä asiakirjoja.";progs.append(e);}
+}
+render();renderProgs();
+if(owner){
+  document.getElementById("progEditor").hidden=false;
+  document.getElementById("progForm").onsubmit=async ev=>{ev.preventDefault();
+    const m=document.getElementById("pmsg"),btn=document.getElementById("pgo");
+    const title=document.getElementById("pt").value.trim();let url=document.getElementById("pu").value.trim();
+    const f=document.getElementById("pf").files[0];
+    try{
+      if(f){if(!assets){m.textContent="Tiedoston lataus ei ole käytettävissä. Liitä linkki.";return;}
+        btn.disabled=true;m.textContent="Ladataan...";const r=await assets.upload(f);url=r.url;}
+      if(!/^(https?:\/\/|\/_blob\/)/.test(url)){m.textContent="Valitse PDF-tiedosto tai liitä linkki, joka alkaa https://";btn.disabled=false;return;}
+      state.programs.unshift({title,url});save();
+    }catch(e){m.textContent="Lisäys ei onnistunut. Yritä uudelleen.";btn.disabled=false;}
+  };
+  document.getElementById("editor").hidden=false;
+  document.getElementById("form").onsubmit=ev=>{ev.preventDefault();
+    state.posts.unshift({date:new Date().toISOString().slice(0,10),title:document.getElementById("t").value.trim(),text:document.getElementById("b").value.trim()});
+    document.getElementById("go").disabled=true;save();};
+}
+})();
+</script>
+</body>
+</html>
